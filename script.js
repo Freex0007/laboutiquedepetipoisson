@@ -58,14 +58,14 @@ function renderProductPage(){
     <img src="${p.image}?w=600&auto=format" alt="${p.name}">
     <div class="product-info">
       <h2>${p.name}</h2>
-      <div class="star">${'★'.repeat(Math.round(p.rating))} <span style="color:#bbb">(${p.reviews})</span></div>
+      <div class="star">${'★'.repeat(Math.round(p.rating))} <span style="color:#888">(${p.reviews})</span></div>
       <p class="price">${p.price.toFixed(2)} €</p>
       <p>${p.description}</p>
       <button class="add-btn" onclick="addToCart(${p.id})">Ajouter au panier</button>
     </div>`;
 }
 
-function addToCart(id){const p=products.find(x=>x.id===id);if(!p)return;cart.push(p);saveCart();updateCartCount();alert('Ajouté !');}
+function addToCart(id){const p=products.find(x=>x.id===id);if(!p)return;cart.push(p);saveCart();updateCartCount();alert('Ajouté au panier !');}
 function removeFromCart(i){cart.splice(i,1);saveCart();renderCart();updateCartCount();}
 
 function renderCart(){
@@ -91,7 +91,7 @@ function initCheckout(){
   const btn=document.getElementById('checkout-btn');if(!btn)return;
   btn.onclick=()=>{
     if(cart.length===0){alert('Votre panier est vide');return;}
-    alert('Commande simulée – merci !');
+    alert('Commande simulée – merci pour votre achat !');
     cart=[];saveCart();renderCart();updateCartCount();
   };
 }

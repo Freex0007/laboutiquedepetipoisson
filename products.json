@@ -1,82 +1,102 @@
 [
   {
     "id": 1,
-    "name": "Robe MIDI Fleurie",
-    "price": 59.9,
-    "category": "Robes",
-    "rating": 4.6,
-    "reviews": 312,
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
-    "description": "Robe midi en coton bio imprimé floral, coupe évasée."
+    "name": "Soutien‑gorge Dentelle Rose",
+    "price": 39.9,
+    "category": "Lingerie",
+    "rating": 4.7,
+    "reviews": 245,
+    "image": "https://images.unsplash.com/photo-1593032465171-8ec8d7ef3683",
+    "description": "Soutien‑gorge balconnet en dentelle recyclée couleur rose poudré."
   },
   {
     "id": 2,
-    "name": "Top Soie Écru",
-    "price": 45.0,
-    "category": "Tops",
-    "rating": 4.4,
-    "reviews": 198,
-    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
-    "description": "Top à bretelles fines 100 % soie, col V."
+    "name": "Culotte Taille Haute",
+    "price": 19.9,
+    "category": "Lingerie",
+    "rating": 4.6,
+    "reviews": 312,
+    "image": "https://images.unsplash.com/photo-1618366712010-dc93d3e6eb72",
+    "description": "Culotte taille haute en microfibre douce, finition sans couture."
   },
   {
     "id": 3,
-    "name": "Ensemble Lingerie Dentelle",
-    "price": 79.9,
+    "name": "Body Sculptant Noir",
+    "price": 42.0,
     "category": "Lingerie",
-    "rating": 4.8,
-    "reviews": 421,
-    "image": "https://images.unsplash.com/photo-1593032465171-8ec8d7ef3683",
-    "description": "Soutien-gorge balconnet et culotte en dentelle recyclée."
+    "rating": 4.5,
+    "reviews": 587,
+    "image": "https://images.unsplash.com/photo-1520975698510-41f408cc2d9c",
+    "description": "Body gainant effet seconde peau, bretelles réglables."
   },
   {
     "id": 4,
-    "name": "Pantalon Palazzo Lin",
-    "price": 69.9,
-    "category": "Pantalons",
-    "rating": 4.3,
-    "reviews": 154,
-    "image": "https://images.unsplash.com/photo-1531925470851-1b5896b67d5e",
-    "description": "Pantalon large en lin naturel, taille haute."
+    "name": "Chaussettes Pastel (Lot de 3)",
+    "price": 14.9,
+    "category": "Accessoires",
+    "rating": 4.4,
+    "reviews": 181,
+    "image": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13",
+    "description": "Chaussettes coton bio aux couleurs pastel douces."
   },
   {
     "id": 5,
-    "name": "Blazer Oversize Camel",
-    "price": 99.0,
-    "category": "Tops",
-    "rating": 4.7,
-    "reviews": 87,
-    "image": "https://images.unsplash.com/photo-1553342386-f4701281bcaa",
-    "description": "Blazer oversize en laine fine couleur camel."
+    "name": "Sac Cabas Nude",
+    "price": 59.0,
+    "category": "Sacs",
+    "rating": 4.8,
+    "reviews": 96,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "description": "Sac cabas en simili cuir nude, poche intérieure zippée."
   },
   {
     "id": 6,
-    "name": "Body Sculptant Noir",
-    "price": 39.9,
-    "category": "Lingerie",
-    "rating": 4.5,
-    "reviews": 562,
-    "image": "https://images.unsplash.com/photo-1520975698510-41f408cc2d9c",
-    "description": "Body sans coutures effet seconde peau."
+    "name": "Pantalon Tailleur Blanc",
+    "price": 79.9,
+    "category": "Pantalons",
+    "rating": 4.3,
+    "reviews": 142,
+    "image": "https://images.unsplash.com/photo-1531925470851-1b5896b67d5e",
+    "description": "Pantalon tailleur coupe droite, tissu fluide blanc cassé."
   },
   {
     "id": 7,
-    "name": "Ceinture Cuir Tressé",
+    "name": "Bracelet Perles Rose Gold",
     "price": 29.9,
-    "category": "Accessoires",
-    "rating": 4.2,
-    "reviews": 73,
-    "image": "https://images.unsplash.com/photo-1512152272829-d1fe20bf05e2",
-    "description": "Ceinture en cuir véritable tressé, boucle dorée."
+    "category": "Bijoux",
+    "rating": 4.5,
+    "reviews": 211,
+    "image": "https://images.unsplash.com/photo-1486184846295-7d4cfb5e644b",
+    "description": "Bracelet élastique perles naturelles rose et doré."
   },
   {
     "id": 8,
-    "name": "Sac Pochette Satin",
-    "price": 55.0,
-    "category": "Accessoires",
+    "name": "Robe MIDI Fleurie",
+    "price": 64.0,
+    "category": "Robes",
     "rating": 4.6,
-    "reviews": 94,
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
-    "description": "Pochette de soirée en satin, chaîne amovible."
+    "reviews": 327,
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+    "description": "Robe midi évasée en coton bio à imprimé floral romantique."
+  },
+  {
+    "id": 9,
+    "name": "Top Soie Écru",
+    "price": 49.0,
+    "category": "Tops",
+    "rating": 4.4,
+    "reviews": 203,
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
+    "description": "Top bretelles fines 100 % soie, col V délicat."
+  },
+  {
+    "id": 10,
+    "name": "Ceinture Cuir Tressé",
+    "price": 32.0,
+    "category": "Accessoires",
+    "rating": 4.2,
+    "reviews": 79,
+    "image": "https://images.unsplash.com/photo-1512152272829-d1fe20bf05e2",
+    "description": "Ceinture en cuir véritable tressé, boucle dorée."
   }
 ]
