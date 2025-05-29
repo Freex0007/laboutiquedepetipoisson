@@ -3,49 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MegaShop – Votre hypermarché en ligne : électronique, mode, maison et plus.">
-  <title>MegaShop | Accueil</title>
+  <title>MegaFlex | Accueil</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3081/3081559.png">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2769/2769608.png">
   <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="header-left">
-      <a href="index.html" class="logo">
-        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" alt="Logo">
-        <span>MegaShop</span>
-      </a>
-    </div>
+<header class="header">
+  <a href="index.html" class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/2769/2769608.png" alt="Logo">
+    MegaFlex
+  </a>
+  <div class="header-center">
+    <input id="search-input" type="search" placeholder="Rechercher un produit, une marque…" />
+    <button id="search-btn">🔍</button>
+  </div>
+  <nav class="header-right">
+    <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
+  </nav>
+</header>
 
-    <div class="header-center">
-      <input id="search-input" type="search" placeholder="Rechercher des produits, des marques et plus…" />
-      <button id="search-btn" aria-label="Rechercher">🔍</button>
-    </div>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Soldes d’Été – Jusqu’à -40%</h1>
+    <button class="primary-btn" onclick="scrollToRows()">Découvrir</button>
+  </div>
+</section>
 
-    <nav class="header-right">
-      <a href="#" id="account-link">Compte & Listes</a>
-      <a href="#" id="orders-link">Retours & Commandes</a>
-      <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
-    </nav>
-  </header>
+<main id="rows-container"></main>
 
-  <!-- Categories Sidebar -->
-  <aside class="sidebar" id="sidebar">
-    <h3>Catégories</h3>
-    <ul id="category-list"></ul>
-  </aside>
-
-  <!-- Main products grid -->
-  <main class="main-content">
-    <h2>Produits populaires</h2>
-    <div class="product-grid" id="product-grid"></div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 MegaShop – Construit pour démonstration.</p>
-  </footer>
+<footer class="footer">
+  <p>&copy; 2025 MegaFlex – Démo hybride Netflix/Amazon.</p>
+</footer>
 </body>
 </html>
