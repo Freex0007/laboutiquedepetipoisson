@@ -14,12 +14,8 @@
       <span>La Boutique de Ti Poisson</span>
     </div>
     <nav class="nav">
-      <input type="text" id="searchInput" placeholder="Rechercher un produit..." class="search" onkeyup="filterProducts()" />
-      <select id="priceFilter" onchange="filterProducts()">
-        <option value="all">Prix</option>
-        <option value="30">Moins de 30€</option>
-        <option value="50">Moins de 50€</option>
-      </select>
+      <a href="#products">Produits</a>
+      <a href="#contact">Contact</a>
       <div class="cart" onclick="showCart()">
         🛒 <span id="cart-count">0</span>
       </div>
@@ -28,34 +24,28 @@
 
   <section class="hero">
     <h1>Collection Printemps 2025</h1>
-    <p>Découvrez nos nouveautés élégantes et tendance</p>
+    <p>Des tenues féminines modernes et élégantes.</p>
     <button onclick="scrollToProducts()">Voir les produits</button>
   </section>
 
   <section class="products" id="products">
-    <div class="product" data-name="Robe fleurie" data-price="39">
+    <div class="product">
       <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/robe1.jpg" alt="Robe fleurie" />
       <h3>Robe fleurie</h3>
       <p>39,99 €</p>
       <button onclick="addToCart('Robe fleurie', 39.99)">Ajouter au panier</button>
     </div>
-    <div class="product" data-name="Chemisier blanc" data-price="29">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Chemisier blanc" />
-      <h3>Chemisier blanc</h3>
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Blouse" />
+      <h3>Blouse soie</h3>
       <p>29,99 €</p>
-      <button onclick="addToCart('Chemisier blanc', 29.99)">Ajouter au panier</button>
+      <button onclick="addToCart('Blouse soie', 29.99)">Ajouter au panier</button>
     </div>
-    <div class="product" data-name="Pull maille" data-price="49">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull maille" />
-      <h3>Pull en maille</h3>
-      <p>49,99 €</p>
-      <button onclick="addToCart('Pull en maille', 49.99)">Ajouter au panier</button>
-    </div>
-    <div class="product" data-name="Jean slim" data-price="45">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/jean1.jpg" alt="Jean slim" />
-      <h3>Jean slim taille haute</h3>
-      <p>45,00 €</p>
-      <button onclick="addToCart('Jean slim', 45.00)">Ajouter au panier</button>
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull" />
+      <h3>Pull beige</h3>
+      <p>44,99 €</p>
+      <button onclick="addToCart('Pull beige', 44.99)">Ajouter au panier</button>
     </div>
   </section>
 
@@ -65,8 +55,18 @@
     <p><strong>Total : </strong><span id="cart-total">0.00</span> €</p>
   </section>
 
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
   <footer>
-    <p>&copy; 2025 La Boutique de Ti Poisson — Tous droits réservés.</p>
+    <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
