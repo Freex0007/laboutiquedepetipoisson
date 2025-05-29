@@ -5,75 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La Boutique de Ti Poisson</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-x..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>La Boutique de Ti Poisson</h1>
-      <p>Mode femme élégante & stylée</p>
+    <div class="top-bar">
+      <div class="logo">🐟 Ti Poisson</div>
+      <div class="icons">
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </div>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#produits">Nouveautés</a>
+      <a href="#">Promotions</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero-banner">
+      <h1>Nouvelle collection Femme 2025</h1>
+      <p>Élégance, style et confort à prix doux</p>
+      <a href="#produits" class="cta">Voir les produits</a>
     </div>
   </header>
 
-  <nav class="navbar">
-    <a href="#">Accueil</a>
-    <a href="#produits">Produits</a>
-    <a href="#apropos">À propos</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section class="hero">
-    <div class="container">
-      <h2>Nouvelle collection printemps 2025</h2>
-      <p>Des tenues féminines modernes, chics et originales.</p>
-    </div>
-  </section>
-
   <section id="produits" class="produits">
-    <div class="container">
-      <h2>Nos Habits Femme</h2>
-      <div class="grid">
-        <div class="card">
-          <img src="https://via.placeholder.com/300x400?text=Robe+Soie" alt="Robe">
-          <h3>Robe en soie</h3>
-          <p>Élégante et légère — 89,00 €</p>
-        </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/300x400?text=Manteau+Long" alt="Manteau">
-          <h3>Manteau long beige</h3>
-          <p>Chic et doux — 129,00 €</p>
-        </div>
-        <div class="card">
-          <img src="https://via.placeholder.com/300x400?text=Blazer+Noir" alt="Blazer">
-          <h3>Blazer structuré</h3>
-          <p>Look professionnel — 99,00 €</p>
-        </div>
+    <h2>Nos Sélections</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400?text=Robe+Fleurie" alt="Robe fleurie">
+        <h3>Robe Fleurie</h3>
+        <p>29,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400?text=Ensemble+Chic" alt="Ensemble chic">
+        <h3>Ensemble Chic</h3>
+        <p>49,99 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x400?text=Manteau+Femme" alt="Manteau femme">
+        <h3>Manteau Élégant</h3>
+        <p>89,00 €</p>
+        <button>Ajouter au panier</button>
       </div>
     </div>
   </section>
 
   <section id="apropos" class="apropos">
-    <div class="container">
-      <h2>À propos</h2>
-      <p>La Boutique de Ti Poisson est née d’une passion pour la mode féminine. Chaque pièce est choisie avec soin pour sublimer toutes les silhouettes.</p>
-    </div>
+    <h2>À propos de nous</h2>
+    <p>Bienvenue chez Ti Poisson, la référence de la mode féminine en ligne. Nous sélectionnons les meilleurs styles pour vous habiller avec goût et personnalité.</p>
   </section>
 
   <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <form>
-        <input type="text" placeholder="Votre nom" required />
-        <input type="email" placeholder="Votre email" required />
-        <textarea placeholder="Votre message" required></textarea>
-        <button type="submit">Envoyer</button>
-      </form>
-    </div>
+    <h2>Contactez-nous</h2>
+    <form>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
-    </div>
+    <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
