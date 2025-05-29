@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Casque Bluetooth Pro",
+    "price": 89.99,
+    "category": "Électronique",
+    "rating": 4.5,
+    "reviews": 1821,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "description": "Casque sans fil avec réduction de bruit active, autonomie 30 h."
+  },
+  {
+    "id": 2,
+    "name": "Montre Connectée Série 9",
+    "price": 319.0,
+    "category": "Électronique",
+    "rating": 4.7,
+    "reviews": 542,
+    "image": "https://images.unsplash.com/photo-1587825140708-3c11e1100d4a",
+    "description": "Écran Amoled, ECG, suivi du sommeil et GPS."
+  },
+  {
+    "id": 3,
+    "name": "Robe d’Été Bohème",
+    "price": 49.9,
+    "category": "Mode",
+    "rating": 4.3,
+    "reviews": 215,
+    "image": "https://images.unsplash.com/photo-1520975829011-4cb675e662b2",
+    "description": "Tissu léger en coton bio, motif fleuri pastel."
+  },
+  {
+    "id": 4,
+    "name": "Chaussures Running AirFlow",
+    "price": 129.9,
+    "category": "Sport",
+    "rating": 4.6,
+    "reviews": 721,
+    "image": "https://images.unsplash.com/photo-1598300058338-d2960f7f68db",
+    "description": "Semelle mousse réactive, 250 g, drop 8 mm."
+  },
+  {
+    "id": 5,
+    "name": "Machine à Café Barista",
+    "price": 249.9,
+    "category": "Maison",
+    "rating": 4.8,
+    "reviews": 324,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+    "description": "Pression 15 bars, buse vapeur et broyeur intégré."
+  },
+  {
+    "id": 6,
+    "name": "Liseuse Lumière HD",
+    "price": 139.0,
+    "category": "Livres",
+    "rating": 4.4,
+    "reviews": 1641,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
+    "description": "Écran e‑ink 300 ppi, éclairage adaptatif, 8 Go."
+  }
+]

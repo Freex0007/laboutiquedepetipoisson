@@ -3,79 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="La Boutique de Ti Poisson – Mode féminine moderne, élégante et durable.">
-  <meta name="keywords" content="mode, femme, boutique en ligne, vêtements, printemps 2025">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>La Boutique de Ti Poisson | Accueil</title>
+  <meta name="description" content="MegaShop – Votre hypermarché en ligne : électronique, mode, maison et plus.">
+  <title>MegaShop | Accueil</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3081/3081559.png">
   <script defer src="script.js"></script>
 </head>
 <body>
   <!-- Header -->
   <header class="header">
-    <div class="logo">
-      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo Poisson">
-      <span>La Boutique de Ti Poisson</span>
-    </div>
-    <button class="burger" id="burger" aria-label="Menu mobile">
-      ☰
-    </button>
-    <nav class="nav" id="navbar">
-      <a href="#products">Produits</a>
-      <a href="#contact">Contact</a>
-      <a href="panier.html" class="cart-link">
-        🛒 <span id="cart-count">0</span>
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" alt="Logo">
+        <span>MegaShop</span>
       </a>
+    </div>
+
+    <div class="header-center">
+      <input id="search-input" type="search" placeholder="Rechercher des produits, des marques et plus…" />
+      <button id="search-btn" aria-label="Rechercher">🔍</button>
+    </div>
+
+    <nav class="header-right">
+      <a href="#" id="account-link">Compte & Listes</a>
+      <a href="#" id="orders-link">Retours & Commandes</a>
+      <a href="cart.html" class="cart-link">🛒 <span id="cart-count">0</span></a>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Collection Printemps 2025</h1>
-    <p>Des tenues féminines modernes et élégantes, conçues de manière éthique.</p>
-    <button class="primary-btn" onclick="scrollToProducts()">Voir les produits</button>
-  </section>
+  <!-- Categories Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Catégories</h3>
+    <ul id="category-list"></ul>
+  </aside>
 
-  <!-- Products -->
-  <section class="products" id="products">
-    <article class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/robe1.jpg" alt="Robe fleurie">
-      <h3>Robe fleurie</h3>
-      <p class="price">39,99 €</p>
-      <button class="secondary-btn" onclick="addToCart('Robe fleurie', 39.99)">Ajouter au panier</button>
-    </article>
-
-    <article class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Blouse soie">
-      <h3>Blouse soie</h3>
-      <p class="price">29,99 €</p>
-      <button class="secondary-btn" onclick="addToCart('Blouse soie', 29.99)">Ajouter au panier</button>
-    </article>
-
-    <article class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull beige">
-      <h3>Pull beige</h3>
-      <p class="price">44,99 €</p>
-      <button class="secondary-btn" onclick="addToCart('Pull beige', 44.99)">Ajouter au panier</button>
-    </article>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="contact">
-    <h2>Contactez‑nous</h2>
-    <form id="contact-form">
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" required></textarea>
-      <button type="submit" class="primary-btn">Envoyer</button>
-      <p id="form-status" role="status" aria-live="polite"></p>
-    </form>
-  </section>
+  <!-- Main products grid -->
+  <main class="main-content">
+    <h2>Produits populaires</h2>
+    <div class="product-grid" id="product-grid"></div>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>&copy; 2025 La Boutique de Ti Poisson — Tous droits réservés.</p>
+    <p>&copy; 2025 MegaShop – Construit pour démonstration.</p>
   </footer>
 </body>
 </html>
