@@ -6,11 +6,10 @@
     "category": "Soutiens-gorge",
     "rating": 4.8,
     "reviews": 245,
-     "image": "assets/soutien_noir.png",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
     "description": "Soutien‑gorge balconnet en dentelle recyclée, armatures souples."
   },
   {
-
     "id": 2,
     "name": "Soutien‑gorge Uni Noir",
     "price": 39.9,
