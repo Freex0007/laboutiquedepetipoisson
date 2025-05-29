@@ -5,73 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La Boutique de Ti Poisson</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-x..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="top-bar">
-      <div class="logo">🐟 Ti Poisson</div>
-      <div class="icons">
-        <a href="#"><i class="fas fa-user"></i></a>
-        <a href="#"><i class="fas fa-heart"></i></a>
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+  <header class="header">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" />
+      <span>La Boutique de Ti Poisson</span>
+    </div>
+    <nav class="nav">
+      <input type="text" placeholder="Rechercher..." class="search" />
+      <div class="cart">
+        🛒 <span id="cart-count">0</span>
       </div>
-    </div>
-    <nav>
-      <a href="#">Accueil</a>
-      <a href="#produits">Nouveautés</a>
-      <a href="#">Promotions</a>
-      <a href="#apropos">À propos</a>
-      <a href="#contact">Contact</a>
     </nav>
-    <div class="hero-banner">
-      <h1>Nouvelle collection Femme 2025</h1>
-      <p>Élégance, style et confort à prix doux</p>
-      <a href="#produits" class="cta">Voir les produits</a>
-    </div>
   </header>
 
-  <section id="produits" class="produits">
-    <h2>Nos Sélections</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x400?text=Robe+Fleurie" alt="Robe fleurie">
-        <h3>Robe Fleurie</h3>
-        <p>29,99 €</p>
-        <button>Ajouter au panier</button>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x400?text=Ensemble+Chic" alt="Ensemble chic">
-        <h3>Ensemble Chic</h3>
-        <p>49,99 €</p>
-        <button>Ajouter au panier</button>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x400?text=Manteau+Femme" alt="Manteau femme">
-        <h3>Manteau Élégant</h3>
-        <p>89,00 €</p>
-        <button>Ajouter au panier</button>
-      </div>
+  <section class="hero">
+    <h1>Collection Printemps 2025</h1>
+    <p>Découvrez nos nouveautés élégantes et tendance</p>
+    <button onclick="scrollToProducts()">Voir les produits</button>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1602810311500-ec60c29f5d5e" alt="Robe fleurie" />
+      <h3>Robe fleurie</h3>
+      <p>39,99 €</p>
+      <button onclick="addToCart()">Ajouter au panier</button>
     </div>
-  </section>
-
-  <section id="apropos" class="apropos">
-    <h2>À propos de nous</h2>
-    <p>Bienvenue chez Ti Poisson, la référence de la mode féminine en ligne. Nous sélectionnons les meilleurs styles pour vous habiller avec goût et personnalité.</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contactez-nous</h2>
-    <form>
-      <input type="text" placeholder="Nom" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1520975698519-59dd963d3e71" alt="Chemisier blanc" />
+      <h3>Chemisier blanc</h3>
+      <p>29,99 €</p>
+      <button onclick="addToCart()">Ajouter au panier</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600180758890-d24e3b2b602c" alt="Pull en maille" />
+      <h3>Pull en maille</h3>
+      <p>49,99 €</p>
+      <button onclick="addToCart()">Ajouter au panier</button>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
+    <p>&copy; 2025 La Boutique de Ti Poisson — Tous droits réservés.</p>
   </footer>
 </body>
 </html>
