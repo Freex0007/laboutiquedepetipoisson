@@ -1,62 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Casque Bluetooth Pro",
-    "price": 89.99,
-    "category": "Électronique",
-    "rating": 4.5,
-    "reviews": 1821,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-    "description": "Casque sans fil a réduction de bruit active, autonomie 30 h."
+    "name": "Robe MIDI Fleurie",
+    "price": 59.9,
+    "category": "Robes",
+    "rating": 4.6,
+    "reviews": 312,
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+    "description": "Robe midi en coton bio imprimé floral, coupe évasée."
   },
   {
     "id": 2,
-    "name": "Montre Connectée Série 9",
-    "price": 319.0,
-    "category": "Électronique",
-    "rating": 4.7,
-    "reviews": 542,
-    "image": "https://images.unsplash.com/photo-1587825140708-3c11e1100d4a",
-    "description": "Écran Amoled, ECG, suivi du sommeil et GPS."
+    "name": "Top Soie Écru",
+    "price": 45.0,
+    "category": "Tops",
+    "rating": 4.4,
+    "reviews": 198,
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
+    "description": "Top à bretelles fines 100 % soie, col V."
   },
   {
     "id": 3,
-    "name": "Robe d’Été Bohème",
-    "price": 49.9,
-    "category": "Mode",
-    "rating": 4.3,
-    "reviews": 215,
-    "image": "https://images.unsplash.com/photo-1520975829011-4cb675e662b2",
-    "description": "Tissu léger en coton bio, motif fleuri pastel."
+    "name": "Ensemble Lingerie Dentelle",
+    "price": 79.9,
+    "category": "Lingerie",
+    "rating": 4.8,
+    "reviews": 421,
+    "image": "https://images.unsplash.com/photo-1593032465171-8ec8d7ef3683",
+    "description": "Soutien-gorge balconnet et culotte en dentelle recyclée."
   },
   {
     "id": 4,
-    "name": "Chaussures Running AirFlow",
-    "price": 129.9,
-    "category": "Sport",
-    "rating": 4.6,
-    "reviews": 721,
-    "image": "https://images.unsplash.com/photo-1598300058338-d2960f7f68db",
-    "description": "Semelle mousse réactive, 250 g, drop 8 mm."
+    "name": "Pantalon Palazzo Lin",
+    "price": 69.9,
+    "category": "Pantalons",
+    "rating": 4.3,
+    "reviews": 154,
+    "image": "https://images.unsplash.com/photo-1531925470851-1b5896b67d5e",
+    "description": "Pantalon large en lin naturel, taille haute."
   },
   {
     "id": 5,
-    "name": "Machine à Café Barista",
-    "price": 249.9,
-    "category": "Maison",
-    "rating": 4.8,
-    "reviews": 324,
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
-    "description": "Pression 15 bars, buse vapeur et broyeur intégré."
+    "name": "Blazer Oversize Camel",
+    "price": 99.0,
+    "category": "Tops",
+    "rating": 4.7,
+    "reviews": 87,
+    "image": "https://images.unsplash.com/photo-1553342386-f4701281bcaa",
+    "description": "Blazer oversize en laine fine couleur camel."
   },
   {
     "id": 6,
-    "name": "Liseuse Lumière HD",
-    "price": 139.0,
-    "category": "Livres",
-    "rating": 4.4,
-    "reviews": 1641,
-    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
-    "description": "Écran e‑ink 300 ppi, éclairage adaptatif, 8 Go."
+    "name": "Body Sculptant Noir",
+    "price": 39.9,
+    "category": "Lingerie",
+    "rating": 4.5,
+    "reviews": 562,
+    "image": "https://images.unsplash.com/photo-1520975698510-41f408cc2d9c",
+    "description": "Body sans coutures effet seconde peau."
+  },
+  {
+    "id": 7,
+    "name": "Ceinture Cuir Tressé",
+    "price": 29.9,
+    "category": "Accessoires",
+    "rating": 4.2,
+    "reviews": 73,
+    "image": "https://images.unsplash.com/photo-1512152272829-d1fe20bf05e2",
+    "description": "Ceinture en cuir véritable tressé, boucle dorée."
+  },
+  {
+    "id": 8,
+    "name": "Sac Pochette Satin",
+    "price": 55.0,
+    "category": "Accessoires",
+    "rating": 4.6,
+    "reviews": 94,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "description": "Pochette de soirée en satin, chaîne amovible."
   }
 ]
