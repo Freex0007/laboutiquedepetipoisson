@@ -4,99 +4,79 @@
     "name": "Soutien‑gorge Dentelle Rose",
     "price": 39.9,
     "category": "Lingerie",
-    "rating": 4.7,
-    "reviews": 245,
-    "image": "https://images.unsplash.com/photo-1593032465171-8ec8d7ef3683",
-    "description": "Soutien‑gorge balconnet en dentelle recyclée couleur rose poudré."
+    "rating": 4.8,
+    "reviews": 452,
+    "image": "https://images.unsplash.com/photo-1555529771-35a16c12652c",
+    "description": "Dentelle délicate, armatures souples, bretelles réglables."
   },
   {
     "id": 2,
-    "name": "Culotte Taille Haute",
+    "name": "Culotte Taille Haute Nude",
     "price": 19.9,
     "category": "Lingerie",
     "rating": 4.6,
-    "reviews": 312,
-    "image": "https://images.unsplash.com/photo-1618366712010-dc93d3e6eb72",
-    "description": "Culotte taille haute en microfibre douce, finition sans couture."
+    "reviews": 389,
+    "image": "https://images.unsplash.com/photo-1593032543881-d2e178e0a94b",
+    "description": "Microfibre douce invisible sous les vêtements."
   },
   {
     "id": 3,
     "name": "Body Sculptant Noir",
-    "price": 42.0,
+    "price": 44.9,
     "category": "Lingerie",
-    "rating": 4.5,
-    "reviews": 587,
-    "image": "https://images.unsplash.com/photo-1520975698510-41f408cc2d9c",
-    "description": "Body gainant effet seconde peau, bretelles réglables."
+    "rating": 4.7,
+    "reviews": 512,
+    "image": "https://images.unsplash.com/photo-1542060749393-2986bfd0a897",
+    "description": "Galbe la silhouette, bretelles croisées dans le dos."
   },
   {
     "id": 4,
-    "name": "Chaussettes Pastel (Lot de 3)",
-    "price": 14.9,
-    "category": "Accessoires",
+    "name": "Chaussettes Côtelées Blanches",
+    "price": 9.9,
+    "category": "Chaussettes",
     "rating": 4.4,
-    "reviews": 181,
-    "image": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13",
-    "description": "Chaussettes coton bio aux couleurs pastel douces."
+    "reviews": 198,
+    "image": "https://images.unsplash.com/photo-1603252109303-2573aaf7e76f",
+    "description": "Coton bio respirant, taille unique 36‑41."
   },
   {
     "id": 5,
-    "name": "Sac Cabas Nude",
-    "price": 59.0,
-    "category": "Sacs",
-    "rating": 4.8,
-    "reviews": 96,
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
-    "description": "Sac cabas en simili cuir nude, poche intérieure zippée."
+    "name": "Pantalon Palazzo Lin",
+    "price": 69.9,
+    "category": "Pantalons",
+    "rating": 4.5,
+    "reviews": 233,
+    "image": "https://images.unsplash.com/photo-1584287026856-a50e7ac68bc8",
+    "description": "Coupe large fluide, taille haute élastiquée."
   },
   {
     "id": 6,
-    "name": "Pantalon Tailleur Blanc",
-    "price": 79.9,
-    "category": "Pantalons",
-    "rating": 4.3,
-    "reviews": 142,
-    "image": "https://images.unsplash.com/photo-1531925470851-1b5896b67d5e",
-    "description": "Pantalon tailleur coupe droite, tissu fluide blanc cassé."
+    "name": "Sac Bandoulière Pastel",
+    "price": 79.0,
+    "category": "Sacs",
+    "rating": 4.6,
+    "reviews": 301,
+    "image": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab",
+    "description": "Cuir vegan, chaîne dorée amovible."
   },
   {
     "id": 7,
-    "name": "Bracelet Perles Rose Gold",
+    "name": "Bracelet Charms Or Rose",
     "price": 29.9,
     "category": "Bijoux",
-    "rating": 4.5,
-    "reviews": 211,
-    "image": "https://images.unsplash.com/photo-1486184846295-7d4cfb5e644b",
-    "description": "Bracelet élastique perles naturelles rose et doré."
+    "rating": 4.7,
+    "reviews": 144,
+    "image": "https://images.unsplash.com/photo-1542060746-8f33c9ea3946",
+    "description": "Acier inoxydable plaqué, ajustable."
   },
   {
     "id": 8,
-    "name": "Robe MIDI Fleurie",
-    "price": 64.0,
-    "category": "Robes",
-    "rating": 4.6,
-    "reviews": 327,
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
-    "description": "Robe midi évasée en coton bio à imprimé floral romantique."
-  },
-  {
-    "id": 9,
-    "name": "Top Soie Écru",
-    "price": 49.0,
-    "category": "Tops",
-    "rating": 4.4,
-    "reviews": 203,
-    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
-    "description": "Top bretelles fines 100 % soie, col V délicat."
-  },
-  {
-    "id": 10,
-    "name": "Ceinture Cuir Tressé",
-    "price": 32.0,
-    "category": "Accessoires",
-    "rating": 4.2,
-    "reviews": 79,
-    "image": "https://images.unsplash.com/photo-1512152272829-d1fe20bf05e2",
-    "description": "Ceinture en cuir véritable tressé, boucle dorée."
+    "name": "Bralette Coton Confort",
+    "price": 24.9,
+    "category": "Lingerie",
+    "rating": 4.5,
+    "reviews": 278,
+    "image": "https://images.unsplash.com/photo-1603252140075-4fda2e128187",
+    "description": "Sans armatures, bande sous poitrine élastique."
   }
 ]
