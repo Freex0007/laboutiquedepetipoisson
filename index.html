@@ -14,8 +14,13 @@
       <span>La Boutique de Ti Poisson</span>
     </div>
     <nav class="nav">
-      <input type="text" placeholder="Rechercher..." class="search" />
-      <div class="cart">
+      <input type="text" id="searchInput" placeholder="Rechercher un produit..." class="search" onkeyup="filterProducts()" />
+      <select id="priceFilter" onchange="filterProducts()">
+        <option value="all">Prix</option>
+        <option value="30">Moins de 30€</option>
+        <option value="50">Moins de 50€</option>
+      </select>
+      <div class="cart" onclick="showCart()">
         🛒 <span id="cart-count">0</span>
       </div>
     </nav>
@@ -28,24 +33,36 @@
   </section>
 
   <section class="products" id="products">
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1602810311500-ec60c29f5d5e" alt="Robe fleurie" />
+    <div class="product" data-name="Robe fleurie" data-price="39">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/robe1.jpg" alt="Robe fleurie" />
       <h3>Robe fleurie</h3>
       <p>39,99 €</p>
-      <button onclick="addToCart()">Ajouter au panier</button>
+      <button onclick="addToCart('Robe fleurie', 39.99)">Ajouter au panier</button>
     </div>
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1520975698519-59dd963d3e71" alt="Chemisier blanc" />
+    <div class="product" data-name="Chemisier blanc" data-price="29">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Chemisier blanc" />
       <h3>Chemisier blanc</h3>
       <p>29,99 €</p>
-      <button onclick="addToCart()">Ajouter au panier</button>
+      <button onclick="addToCart('Chemisier blanc', 29.99)">Ajouter au panier</button>
     </div>
-    <div class="product">
-      <img src="https://images.unsplash.com/photo-1600180758890-d24e3b2b602c" alt="Pull en maille" />
+    <div class="product" data-name="Pull maille" data-price="49">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull maille" />
       <h3>Pull en maille</h3>
       <p>49,99 €</p>
-      <button onclick="addToCart()">Ajouter au panier</button>
+      <button onclick="addToCart('Pull en maille', 49.99)">Ajouter au panier</button>
     </div>
+    <div class="product" data-name="Jean slim" data-price="45">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/jean1.jpg" alt="Jean slim" />
+      <h3>Jean slim taille haute</h3>
+      <p>45,00 €</p>
+      <button onclick="addToCart('Jean slim', 45.00)">Ajouter au panier</button>
+    </div>
+  </section>
+
+  <section id="cart-section" class="cart-section" style="display:none;">
+    <h2>Votre panier</h2>
+    <ul id="cart-items"></ul>
+    <p><strong>Total : </strong><span id="cart-total">0.00</span> €</p>
   </section>
 
   <footer>
