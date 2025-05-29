@@ -2,81 +2,101 @@
   {
     "id": 1,
     "name": "Soutien‑gorge Dentelle Rose",
-    "price": 39.9,
-    "category": "Lingerie",
+    "price": 44.9,
+    "category": "Soutiens-gorge",
     "rating": 4.8,
-    "reviews": 452,
-    "image": "https://images.unsplash.com/photo-1555529771-35a16c12652c",
-    "description": "Dentelle délicate, armatures souples, bretelles réglables."
+    "reviews": 245,
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
+    "description": "Soutien‑gorge balconnet en dentelle recyclée, armatures souples."
   },
   {
     "id": 2,
-    "name": "Culotte Taille Haute Nude",
-    "price": 19.9,
-    "category": "Lingerie",
+    "name": "Soutien‑gorge Uni Noir",
+    "price": 39.9,
+    "category": "Soutiens-gorge",
     "rating": 4.6,
-    "reviews": 389,
-    "image": "https://images.unsplash.com/photo-1593032543881-d2e178e0a94b",
-    "description": "Microfibre douce invisible sous les vêtements."
+    "reviews": 198,
+    "image": "https://images.unsplash.com/photo-1593032465171-8ec8d7ef3683",
+    "description": "Soutien‑gorge couvrant microfibre, confort quotidien."
   },
   {
     "id": 3,
-    "name": "Body Sculptant Noir",
-    "price": 44.9,
-    "category": "Lingerie",
-    "rating": 4.7,
-    "reviews": 512,
-    "image": "https://images.unsplash.com/photo-1542060749393-2986bfd0a897",
-    "description": "Galbe la silhouette, bretelles croisées dans le dos."
+    "name": "Culotte Taille Haute Coton",
+    "price": 14.9,
+    "category": "Culottes",
+    "rating": 4.5,
+    "reviews": 312,
+    "image": "https://images.unsplash.com/photo-1597026660615-7b33ae1b5b7d",
+    "description": "Culotte douce en coton bio, maintien léger."
   },
   {
     "id": 4,
-    "name": "Chaussettes Côtelées Blanches",
-    "price": 9.9,
-    "category": "Chaussettes",
-    "rating": 4.4,
-    "reviews": 198,
-    "image": "https://images.unsplash.com/photo-1603252109303-2573aaf7e76f",
-    "description": "Coton bio respirant, taille unique 36‑41."
+    "name": "Culotte Dentelle Nude",
+    "price": 18.5,
+    "category": "Culottes",
+    "rating": 4.7,
+    "reviews": 161,
+    "image": "https://images.unsplash.com/photo-1589260545873-18331b638b56",
+    "description": "Finition dentelle invisible sous les vêtements."
   },
   {
     "id": 5,
-    "name": "Pantalon Palazzo Lin",
-    "price": 69.9,
-    "category": "Pantalons",
-    "rating": 4.5,
-    "reviews": 233,
-    "image": "https://images.unsplash.com/photo-1584287026856-a50e7ac68bc8",
-    "description": "Coupe large fluide, taille haute élastiquée."
+    "name": "Body Sculpt Rose Poudré",
+    "price": 59.9,
+    "category": "Lingerie",
+    "rating": 4.9,
+    "reviews": 201,
+    "image": "https://images.unsplash.com/photo-1520975698510-41f408cc2d9c",
+    "description": "Body gainant effet seconde peau, décolleté plongeant."
   },
   {
     "id": 6,
-    "name": "Sac Bandoulière Pastel",
-    "price": 79.0,
-    "category": "Sacs",
-    "rating": 4.6,
-    "reviews": 301,
-    "image": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab",
-    "description": "Cuir vegan, chaîne dorée amovible."
+    "name": "Chaussettes Douceur Rosées (3 paires)",
+    "price": 12.9,
+    "category": "Chaussettes",
+    "rating": 4.4,
+    "reviews": 88,
+    "image": "https://images.unsplash.com/photo-1583511655635-1c20a37d78c9",
+    "description": "Coton peigné, bords roulés anti‑marque."
   },
   {
     "id": 7,
-    "name": "Bracelet Charms Or Rose",
-    "price": 29.9,
-    "category": "Bijoux",
-    "rating": 4.7,
-    "reviews": 144,
-    "image": "https://images.unsplash.com/photo-1542060746-8f33c9ea3946",
-    "description": "Acier inoxydable plaqué, ajustable."
+    "name": "Pantalon Tailleur Rose Poudré",
+    "price": 79.9,
+    "category": "Pantalons",
+    "rating": 4.6,
+    "reviews": 114,
+    "image": "https://images.unsplash.com/photo-1531925470851-1b5896b67d5e",
+    "description": "Coupe palazzo, tissu fluide, pinces avant."
   },
   {
     "id": 8,
-    "name": "Bralette Coton Confort",
-    "price": 24.9,
-    "category": "Lingerie",
+    "name": "Sac Bandoulière Velours Framboise",
+    "price": 69.0,
+    "category": "Sacs",
+    "rating": 4.7,
+    "reviews": 173,
+    "image": "https://images.unsplash.com/photo-1587825140708-3c11e1100d4a",
+    "description": "Velours côtelé, chaîne dorée, format soirée."
+  },
+  {
+    "id": 9,
+    "name": "Sac Pochette Satin Blush",
+    "price": 55.0,
+    "category": "Sacs",
     "rating": 4.5,
-    "reviews": 278,
-    "image": "https://images.unsplash.com/photo-1603252140075-4fda2e128187",
-    "description": "Sans armatures, bande sous poitrine élastique."
+    "reviews": 96,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "description": "Satin mat, dragonne amovible, intérieur doublé."
+  },
+  {
+    "id": 10,
+    "name": "Bracelet Perles Rose Quartz",
+    "price": 29.9,
+    "category": "Bracelets",
+    "rating": 4.8,
+    "reviews": 64,
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3",
+    "description": "Perles naturelles 6 mm, fermeture ajustable dorée."
   }
 ]
