@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Panier - La Boutique de Ti Poisson</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Panier | La Boutique de Ti Poisson</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
   <script defer src="script.js"></script>
 </head>
 <body>
+  <!-- Header -->
   <header class="header">
     <div class="logo">
-      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" />
-      <span>La Boutique de Ti Poisson</span>
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo Poisson">
+      <span>La Boutique de Ti Poisson</span>
     </div>
     <nav class="nav">
       <a href="index.html">Accueil</a>
     </nav>
   </header>
 
-  <section class="cart-section">
+  <!-- Cart section -->
+  <main class="cart-section">
     <h2>Votre panier</h2>
     <ul id="cart-items"></ul>
-    <p><strong>Total : </strong><span id="cart-total">0.00</span> €</p>
-    <button onclick="alert('Commande simulée ! Merci :)')">Valider la commande</button>
-  </section>
+    <p><strong>Total :</strong> <span id="cart-total">0.00</span> €</p>
+    <button class="primary-btn" id="checkout-btn">Valider la commande</button>
+  </main>
 
-  <footer>
-    <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 La Boutique de Ti Poisson — Tous droits réservés.</p>
   </footer>
 </body>
 </html>

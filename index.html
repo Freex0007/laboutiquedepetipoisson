@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>La Boutique de Ti Poisson</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Boutique de Ti Poisson – Mode féminine moderne, élégante et durable.">
+  <meta name="keywords" content="mode, femme, boutique en ligne, vêtements, printemps 2025">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>La Boutique de Ti Poisson | Accueil</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
   <script defer src="script.js"></script>
 </head>
 <body>
+  <!-- Header -->
   <header class="header">
     <div class="logo">
-      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" />
-      <span>La Boutique de Ti Poisson</span>
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo Poisson">
+      <span>La Boutique de Ti Poisson</span>
     </div>
-    <nav class="nav">
+    <button class="burger" id="burger" aria-label="Menu mobile">
+      ☰
+    </button>
+    <nav class="nav" id="navbar">
       <a href="#products">Produits</a>
       <a href="#contact">Contact</a>
-      <div class="cart" onclick="showCart()">
+      <a href="panier.html" class="cart-link">
         🛒 <span id="cart-count">0</span>
-      </div>
+      </a>
     </nav>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
-    <h1>Collection Printemps 2025</h1>
-    <p>Des tenues féminines modernes et élégantes.</p>
-    <button onclick="scrollToProducts()">Voir les produits</button>
+    <h1>Collection Printemps 2025</h1>
+    <p>Des tenues féminines modernes et élégantes, conçues de manière éthique.</p>
+    <button class="primary-btn" onclick="scrollToProducts()">Voir les produits</button>
   </section>
 
+  <!-- Products -->
   <section class="products" id="products">
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/robe1.jpg" alt="Robe fleurie" />
+    <article class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/robe1.jpg" alt="Robe fleurie">
       <h3>Robe fleurie</h3>
-      <p>39,99 €</p>
-      <button onclick="addToCart('Robe fleurie', 39.99)">Ajouter au panier</button>
-    </div>
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Blouse" />
-      <h3>Blouse soie</h3>
-      <p>29,99 €</p>
-      <button onclick="addToCart('Blouse soie', 29.99)">Ajouter au panier</button>
-    </div>
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull" />
-      <h3>Pull beige</h3>
-      <p>44,99 €</p>
-      <button onclick="addToCart('Pull beige', 44.99)">Ajouter au panier</button>
-    </div>
+      <p class="price">39,99 €</p>
+      <button class="secondary-btn" onclick="addToCart('Robe fleurie', 39.99)">Ajouter au panier</button>
+    </article>
+
+    <article class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/blouse1.jpg" alt="Blouse soie">
+      <h3>Blouse soie</h3>
+      <p class="price">29,99 €</p>
+      <button class="secondary-btn" onclick="addToCart('Blouse soie', 29.99)">Ajouter au panier</button>
+    </article>
+
+    <article class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0269/9271/4324/products/pull1.jpg" alt="Pull beige">
+      <h3>Pull beige</h3>
+      <p class="price">44,99 €</p>
+      <button class="secondary-btn" onclick="addToCart('Pull beige', 44.99)">Ajouter au panier</button>
+    </article>
   </section>
 
-  <section id="cart-section" class="cart-section" style="display:none;">
-    <h2>Votre panier</h2>
-    <ul id="cart-items"></ul>
-    <p><strong>Total : </strong><span id="cart-total">0.00</span> €</p>
-  </section>
-
+  <!-- Contact -->
   <section id="contact" class="contact">
-    <h2>Contactez-nous</h2>
-    <form>
-      <input type="text" placeholder="Votre nom" required>
-      <input type="email" placeholder="Votre email" required>
-      <textarea placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
+    <h2>Contactez‑nous</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit" class="primary-btn">Envoyer</button>
+      <p id="form-status" role="status" aria-live="polite"></p>
     </form>
   </section>
 
-  <footer>
-    <p>&copy; 2025 La Boutique de Ti Poisson. Tous droits réservés.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 La Boutique de Ti Poisson — Tous droits réservés.</p>
   </footer>
 </body>
 </html>
